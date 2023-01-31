@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99vw;
+    height: 100vh;
+    padding-top: 30px;
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-image: url(https://a-static.besthdwallpaper.com/tomura-shigaraki-my-hero-academia-wallpaper-2560x1600-79452_7.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+div.inputs {
+display: flex;
+gap: 10px;
+margin: 10px 0 0 10px;
+}
+
+input {
+    outline: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
